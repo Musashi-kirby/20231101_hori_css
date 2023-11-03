@@ -1,10 +1,6 @@
 *{
     box-sizing: border-box;
 }
-header{
-    color: #223a70;
-    text-decoration: none;
-}
 
 .header{
     width: 100%;
@@ -14,9 +10,16 @@ header{
     justify-content: space-between
 }
 
+.header__link {
+    color: #2e4e95;
+    text-decoration: none;
+}
+
 .header__left{
     display: inline-block;
-    font-size: 24px;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 10px;
 }
 
 .header__nav{
@@ -27,7 +30,34 @@ header{
 
 .header__nav-item{
     display: inline-block;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 20px;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.container__img{
+    width: 50%;
+    margin: 100px 0 0 auto;
+}
+
+.container__img img{
+    width: 100%;
+}
+
+.container__lower--text{
+    font-size: 80px;
+    font-weight: normal;
+    margin-top: -200px;
+}
+
+.container__lower--line{
+    width: 75%;
+    height: 250px;
+    background-color: #00277e;
 }
